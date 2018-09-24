@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+
+* {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    width: 1366px;
+    margin: auto;
+}
+
+.header a {
+    text-transform: uppercase;
+}
+
+.menu {
+    float: right;
+    padding-right: 150px;
+}
+
+.menu-item a {
+    margin-left: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Montserrat-Medium', sans-serif;
+    transition: 0.5s;
+}
+
+.menu-item:hover > a {
+    transition: 0.5s;
+    color: #4ad1cc;
+}
+
+.logo {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu-item {
+    display: inline;
+    padding: 0px 5px;
+}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.inscriptionWithHr {
+    width: 500px;
+    margin: auto;
+    padding: 110px 0px;
+}
+
+.featuredProducts {
+    width: 1366px;
+    margin: auto;
+}
+
+.inscriptionHr {
+    width: 200px;
+    padding-top: 3px;
+    background-color: rgb(26, 188, 156);
+    border: solid rgb(26, 188, 156);
+}
+
+.inscriptionH {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: rgb(81, 81, 81);
+}
+
+.Items {
+    float: left;
+}
+
+.productCard {
+    float: left;
+    width: 250px;
+    text-transform: uppercase;
+    padding: 30px 30px;
+}
+
+.leftSide {
+    float: left;
+    text-align: center;
+    width: 200px;
+    margin-top: -4px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+.rightSide {
+    width: 50px;
+    float: right;
+    margin-top: -4px;
+    background-color: rgb(140, 140, 140);
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+.productCard:hover .leftSide {
+    transition: 0.5s;
+    background-color: rgb(26, 188, 156);
+}
+
+.productCard:hover .rightSide {
+    transition: 0.5s;
+    background-color: rgb(127, 217, 199);
+}
+
+.newsBox {
+    width: 350px;
+    padding: 0px 30px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.latestNews {
+    width: 1366px;
+    margin: auto;
+}
+
+.items {
+    
+}
+
+.newsTitle {
+    color: rgb(82, 85, 85);
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.newsArticleHr {
+    float: left;
+    width: 130px;
+    border: solid rgb(26, 188, 156);
+    
+    
+} 
+
+.newsDescriptopn {
+    float: left;
+    color: rgb(82, 85, 85);
+}
+
+.readMore {
+    width: 160px;
+    padding: 10px 10px;
+    color: white;
+    background-color: rgb(78, 198, 171);
+    border-radius: 5px;
+    border: 0;
+    
+}
