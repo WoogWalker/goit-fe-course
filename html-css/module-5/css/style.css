@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+
+* {
+    font-size: 16px;
+}
+
+.header {
+    width: 1920px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header a {
+    text-transform: uppercase;
+}
+
+.menu {
+    float: right;
+    padding-right: 150px;
+}
+
+.menu-item a {
+    margin-left: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Montserrat-Medium', sans-serif;
+    transition: 0.5s;
+}
+
+.menu-item:hover > a {
+    transition: 0.5s;
+    color: #4ad1cc;
+}
+
+.logo {
+    float: left;
+    padding-left: 150px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu-item {
+    display: inline;
+    padding: 0px 5px;
+}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.featuredProducts {
+    width: 1920px;
+    margin: auto;
+    background-color: rgb(233, 240, 253);
+}
+
+.inscriptionWithHr {
+    width: 500px;
+    margin: auto;
+    padding: 110px 0px;
+}
+
+.inscriptionH {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: rgb(81, 81, 81);
+}
+
+.inscriptionHr {
+    width: 200px;
+    padding-top: 3px;
+    background-color: rgb(26, 188, 156);
+    border: solid rgb(26, 188, 156);
+    margin-left: 140px;
+}
+
+.Items {
+    float: left;
+}
+
+.productCard {
+    float: left;
+    width: 250px;
+    text-transform: uppercase;
+    padding: 30px 30px;
+}
+
+
+.leftSide {
+    float: left;
+    text-align: center;
+    width: 200px;
+    margin-top: -4px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+.rightSide {
+    width: 50px;
+    float: right;
+    margin-top: -4px;
+    background-color: rgb(140, 140, 140);
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+.productCard:hover .leftSide {
+    transition: 0.5s;
+    background-color: rgb(26, 188, 156);
+}
+
+.productCard:hover .rightSide {
+    transition: 0.5s;
+    background-color: rgb(127, 217, 199);
+}
+
+.img {
+    width: 250px;
+    height: 281px;
+}
+
+.slider {
+    background: url('../img/slide4.jpg');
+    height: 700px;
+    width: 1920px;
+    margin: auto;
+}
+
+.leftArrow {
+    width: 100px;
+    height: 100px;
+    margin-top: 70px;
+    background-color: rgba(70, 191, 169, 0.8);
+    float: left;
+    font-size: 5em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.rightArrow {
+    width: 100px;
+    height: 100px;
+    margin-top: 70px;
+    background-color: rgba(70, 191, 169, 0.8);
+    float: left;
+    font-size: 5em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.sliderContent {
+
+    padding-left: 400px;
+    padding-top: 220px;
+}
+
+.pText1 {
+    float: left;
+    color: white;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: bold;
+    padding: 0px 50px;
+}
+
+.pText2 {
+    float: none;
+    color: white;
+    font-size: 0.5em;
+}
+
+.hoverInfo {
+    margin-top: -200px;
+    display: none;
+    position: absolute;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.productCard:hover > .hoverInfo {
+    display: block;
+}
+
+.imgBorder {
+    border: solid 2px white;
+    float: left;
+    padding: 5px 5px;
+    fill: white;
+    margin: 0px 5px;
+    color: white;
+    margin-bottom: 10px;
+    background-color: rgb(70, 191, 169);
+}
+
+.imgBorderBasket {
+    border: solid 2px white;
+    padding: 15px 15px;
+    margin-top: 10px;
+    fill: white;
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+.footer {
+    width: 1920px;
+    height: 90px;
+    margin: auto;
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footerInfo {
+    color: white;
+    font-size: 1.5em;
+}
+
+.author {
+    color: rgb(70, 191, 169);
+    font-size: 1.2em;
+}
+
+.items {
+    padding-left: 350px;
+}
+
+.productCard:hover > .img {
+    filter: brightness(50%);
+}
+
+.basketImg {}
