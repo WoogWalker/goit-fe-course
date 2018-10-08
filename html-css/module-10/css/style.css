@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto');
+* {
+    margin: auto;
+    padding: 0;
+}
+
+.header {
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9)), url(../img/bci.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerPart1 {
+    display: flex;
+    padding-top: 50px;
+}
+
+.headerPart2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+/*menu*/
+.menuUl {
+    display: flex;
+}
+
+.menuIl {
+    list-style-type: none;
+    padding: 0px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.menuUl .menuIl:first-child {
+    border-bottom: 3px solid rgb(252, 227, 138);
+}
+
+.menuA {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+/*menu*/
+
+.logo {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.headerText1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 72px;
+    color: white;
+}
+
+.headerText2 {
+    max-width: 1000px;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    font-size: 150px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.headerBtn {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 160px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    border: 3px solid white;
+    padding: 5px 10px;
+}
+
+/*1*/
+
+.containerText1 {
+    margin-top: 55px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+}
+
+.containerText2 {
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.upperPart {
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    margin: 20px 20px;
+    display: flex;
+}
+
+.lowerPart {
+    display: flex;
+    justify-content: center;
+}
+
+.categoryDisc {
+    color: #999999;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.teamTextDisc {
+    padding-bottom: 50px;
+    max-width: 900px;
+    color: #999999;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.photoCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.photoPart1 {
+    width: 380px;
+    height: 470px;
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0), rgba(243, 129, 129, 0)), url(../img/1.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.photoPart1:hover {
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8)), url(../img/1.png);
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+    box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+}
+
+.photoPart1:hover > .hoverSocials {
+    display: flex;
+    padding-top: 250px;
+    vertical-align: middle;
+}
+
+.photoPart2 {
+    width: 380px;
+    height: 470px;
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0), rgba(243, 129, 129, 0)), url(../img/2.png);
+    background-repeat: no-repeat;
+}
+
+.photoPart2:hover {
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8)), url(../img/2.png);
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+    box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+}
+
+.photoPart2:hover > .hoverSocials {
+    display: flex;
+    padding-top: 250px;
+    justify-content: center;
+}
+
+.photoPart3 {
+    width: 380px;
+    height: 470px;
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0), rgba(243, 129, 129, 0)), url(../img/3.png);
+    background-repeat: no-repeat;
+}
+
+.photoPart3:hover {
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8)), url(../img/3.png);
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+    box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+}
+
+.photoPart3:hover > .hoverSocials {
+    display: flex;
+    padding-top: 250px;
+    justify-content: center;
+}
+
+.lowerCardPart {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.hoverSocials {
+    display: none;
+}
+
+.sosciaelsUl {
+    display: flex;
+    justify-content: center;
+}
+
+.socialsLi {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    margin: 0px 1px;
+    list-style-type: none;
+    border: 1px solid rgb(252, 227, 138);
+    border-radius: 5px;
+    background-color: rgb(252, 227, 138);
+}
+
+.socialsLi:hover {
+    background-color: rgba(149, 225, 211, 1);
+    border: 0;
+}
+
+.footerPart {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*footer*/
+.button {
+    display: flex;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(149, 225, 211);
+    border: 0;
+    padding: 7px 20px;
+}
+
+.formInput {
+    width: 200px;
+    padding: 5px 0px;
+}
+
+.formBtn {
+    width: 150px;
+    color: white;
+    background-color: rgb(149, 225, 211);
+    border: 0;
+    padding: 7px 20px;
+}
+
+.footer {
+    max-width: 1200px
+}
+
+.footerLine {
+    margin-top: 80px;
+    border-bottom: 3px solid rgb(229, 229,229);
+}
+
+.copyText {
+    
+}
+
+.cardName {
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.cardDesc {
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+}
+
+.categoryName {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.imgPart {
+    padding: 0px 15px;
+}
+
+.redLine {
+    padding: 40px 0px;
+}
+
+.footerPrivacy {
+    font-size: 14p;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    
+}
+
+.createrLink {
+    text-decoration: none;
+    color: rgb(243, 129, 129);
+}
