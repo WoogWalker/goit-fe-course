@@ -1,0 +1,379 @@
+/*
+   Import partials below
+*/
+@import 'normalize';
+
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script:400,700|Montserrat:400, 500ss,700|Roboto:400,700');
+* {
+    margin: auto;
+    padding: 0;
+}
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .header {
+        background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0.9)), to(rgba(243, 129, 129, 0.9))), url(../img/bci@2.png);
+        background-image: -webkit-linear-gradient(bottom, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9)), url(../img/bci@2.png);
+        background-image: -o-linear-gradient(bottom, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9)), url(../img/bci@2.png);
+        background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9)), url(../img/bci@2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .team-part1-gallery-photoCard-photoPart1 {
+        background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0)), to(rgba(243, 129, 129, 0))), url(../img/1@2.png);
+        background-image: -webkit-linear-gradient(bottom, rgba(252, 227, 138, 0), rgba(243, 129, 129, 0)), url(../img/1@2.png);
+        background-image: -o-linear-gradient(bottom, rgba(252, 227, 138, 0), rgba(243, 129, 129, 0)), url(../img/1@2.png);
+        background-image: linear-gradient(to top, rgba(252, 227, 138, 0), rgba(243, 129, 129, 0)), url(../img/1@2.png);
+        background-repeat: no-repeat;
+    }
+    .team-part1-gallery-photoCard-photoPart1:hover {
+        background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0.8)), to(rgba(243, 129, 129, 0.8))), url(../img/1@2.png);
+        background-image: -webkit-linear-gradient(bottom, rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8)), url(../img/1@2.png);
+        background-image: -o-linear-gradient(bottom, rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8)), url(../img/1@2.png);
+        background-image: linear-gradient(to top, rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8)), url(../img/1@2.png);
+        background-repeat: no-repeat;
+    }
+    
+    .team-part1-gallery-photoCard-photoPart2 {
+        background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0)), to(rgba(243, 129, 129, 0))), url(../img/2@2.png);
+        background-image: -webkit-linear-gradient(bottom, rgba(252, 227, 138, 0), rgba(243, 129, 129, 0)), url(../img/2@2.png);
+        background-image: -o-linear-gradient(bottom, rgba(252, 227, 138, 0), rgba(243, 129, 129, 0)), url(../img/2@2.png);
+        background-image: linear-gradient(to top, rgba(252, 227, 138, 0), rgba(243, 129, 129, 0)), url(../img/2@2.png);
+        background-repeat: no-repeat;
+    }
+    .team-part1-gallery-photoCard-photoPart2:hover {
+        background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0.8)), to(rgba(243, 129, 129, 0.8))), url(../img/2@2.png);
+        background-image: -webkit-linear-gradient(bottom, rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8)), url(../img/2@2.png);
+        background-image: -o-linear-gradient(bottom, rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8)), url(../img/2@2.png);
+        background-image: linear-gradient(to top, rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8)), url(../img/2@2.png);
+        background-repeat: no-repeat;
+    }
+    
+    .team-part1-gallery-photoCard-photoPart3 {
+        background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0)), to(rgba(243, 129, 129, 0))), url(../img/3@2.png);
+        background-image: -webkit-linear-gradient(bottom, rgba(252, 227, 138, 0), rgba(243, 129, 129, 0)), url(../img/3@2.png);
+        background-image: -o-linear-gradient(bottom, rgba(252, 227, 138, 0), rgba(243, 129, 129, 0)), url(../img/3@2.png);
+        background-image: linear-gradient(to top, rgba(252, 227, 138, 0), rgba(243, 129, 129, 0)), url(../img/3@2.png);
+        background-repeat: no-repeat;
+    }
+    .team-part1-gallery-photoCard-photoPart3:hover {
+        background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0.8)), to(rgba(243, 129, 129, 0.8))), url(../img/3@2.png);
+        background-image: -webkit-linear-gradient(bottom, rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8)), url(../img/3@2.png);
+        background-image: -o-linear-gradient(bottom, rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8)), url(../img/3@2.png);
+        background-image: linear-gradient(to top, rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8)), url(../img/3@2.png);
+        background-repeat: no-repeat;
+    }
+}
+
+/*header*/
+.header {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0.9)), to(rgba(243, 129, 129, 0.9))), url(../img/bci.png);
+    background-image: -webkit-linear-gradient(bottom, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9)), url(../img/bci.png);
+    background-image: -o-linear-gradient(bottom, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9)), url(../img/bci.png);
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9)), url(../img/bci.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-part1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 50px;
+}
+.header-part2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 200px;
+}
+.header-part1__menuUl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.header-part1__menuUl .menuIl:first-child {
+    border-bottom: 3px solid rgb(252, 227, 138);
+}
+.header-part1__logo {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.header-part2__text1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 72px;
+    color: white;
+}
+.header-part2__text2 {
+    max-width: 1000px;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    font-size: 150px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.header-part2__btn {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 160px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    border: 3px solid white;
+    padding: 5px 10px;
+}
+    /*menu header*/
+    .menuIl {
+        list-style-type: none;
+        padding: 0px 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+}
+    .menuA {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        color: white;
+}
+    /*menu header*/
+/*header*/
+
+
+
+/*services*/
+.services-part1__text1 {
+    margin-top: 55px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+}
+.services-part1__text2 {
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.services-part1 {
+    text-align: center;
+}
+.services-part2-card {
+    width: 300px;
+    margin: 20px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.services-part2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.services-part2-card-textPart__categoryDisc {
+    color: #999999;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.services-part2-card-textPart__categoryName {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.services-part2-card-imgPart {
+    padding: 0px 15px;
+}
+.services-part1__redLine {
+    padding: 40px 0px;
+}
+/*services*/
+
+/*team*/
+.teamTextDisc {
+    padding-bottom: 50px;
+    max-width: 900px;
+    color: #999999;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.team-part1-gallery-photoCard-lowerCardPart {
+    text-align: center;
+}
+.socialsLi {
+    width: 32px;
+    height: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0px 1px;
+    list-style-type: none;
+    border-radius: 5px;
+    background-color: rgb(252, 227, 138);
+}
+.socialsLi:hover {
+    background-color: rgb(149, 225, 211);
+    border: 0;
+}
+.team-part1-gallery-photoCard-lowerCardPart__cardName {
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.team-part1-gallery-photoCard-lowerCardPart__cardDesc {
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+}
+.team-part1-gallery {
+    display: flex;
+    justify-content: center;
+}
+.photoCard {
+    display: flex;
+    flex-direction: column;
+}
+.team-part1 {
+    text-align: center;
+}
+.team-part1-gallery-photoCard-photoPart1 {
+    width: 380px;
+    height: 470px;
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0), rgba(243, 129, 129, 0)), url(../img/1.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.team-part1-gallery-photoCard-photoPart1:hover {
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8)), url(../img/1.png);
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+    box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+}
+.team-part1-gallery-photoCard-photoPart1:hover > .hoverSocials {
+    display: flex;
+    padding-top: 250px;
+    vertical-align: middle;
+}  
+
+.team-part1-gallery-photoCard-photoPart2 {
+    width: 380px;
+    height: 470px;
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0), rgba(243, 129, 129, 0)), url(../img/2.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.team-part1-gallery-photoCard-photoPart2:hover {
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8)), url(../img/2.png);
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+    box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+}
+.team-part1-gallery-photoCard-photoPart2:hover > .hoverSocials {
+    display: flex;
+    padding-top: 250px;
+    vertical-align: middle;
+} 
+
+.team-part1-gallery-photoCard-photoPart3 {
+    width: 380px;
+    height: 470px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0)), to(rgba(243, 129, 129, 0))), url(../img/3.png);
+    background-image: -webkit-linear-gradient(bottom, rgba(252, 227, 138, 0), rgba(243, 129, 129, 0)), url(../img/3.png);
+    background-image: -o-linear-gradient(bottom, rgba(252, 227, 138, 0), rgba(243, 129, 129, 0)), url(../img/3.png);
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0), rgba(243, 129, 129, 0)), url(../img/3.png);
+    background-repeat: no-repeat;
+}
+.team-part1-gallery-photoCard-photoPart3:hover {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0.8)), to(rgba(243, 129, 129, 0.8))), url(../img/3.png);
+    background-image: -webkit-linear-gradient(bottom, rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8)), url(../img/3.png);
+    background-image: -o-linear-gradient(bottom, rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8)), url(../img/3.png);
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.8), rgba(243, 129, 129, 0.8)), url(../img/3.png);
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+    box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+}
+.team-part1-gallery-photoCard-photoPart3:hover > .hoverSocials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 250px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.hoverSocials {
+    display: none;
+}
+.hoverSocials__sosciaelsUl {
+    display: flex;
+    justify-content: center;
+}
+/*team*/
+
+/*footer*/
+.footer {
+    max-width: 1200px;
+    margin-bottom: 10px;
+}
+.footer-footerLine-footerPart {
+    margin-top: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.footer-footerLine-footerPart-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.footer-footerLine-footerPart-button__formInput {
+    width: 200px;
+    padding: 5px 0px;
+    padding-left: 10px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.footer-footerLine-footerPart-button__formBtn {
+    width: 150px;
+    color: white;
+    background-color: rgb(149, 225, 211);
+    border: 0;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: 7px 20px;
+}
+.footer-footerLine {
+    margin-top: 80px;
+    border-bottom: 3px solid rgb(229, 229, 229);
+}
+.footer-footerLine-footerPart-copyText__footerPrivacy {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.footer-footerLine-footerPart-copyText__createrLink {
+    text-decoration: none;
+    color: rgb(243, 129, 129);
+}
+/*footer*/
